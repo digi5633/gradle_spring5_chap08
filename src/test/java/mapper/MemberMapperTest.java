@@ -12,8 +12,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.util.Assert;
 
-import config.AppCtx;
-import spring.Member;
+import gradle_spring_db_study.config.AppCtx;
+import gradle_spring_db_study.mapper.MemberMapper;
+import gradle_spring_db_study.spring.Member;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { AppCtx.class })

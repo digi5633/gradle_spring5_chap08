@@ -1,16 +1,16 @@
-package main;
+package gradle_spring_db_study.main;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import config.AppCtx;
-import spring.ChangePasswordService;
-import spring.Member;
-import spring.MemberDao;
-import spring.MemberNotFoundException;
-import spring.WrongIdPasswordException;
+import gradle_spring_db_study.config.AppCtx;
+import gradle_spring_db_study.spring.ChangePasswordService;
+import gradle_spring_db_study.spring.Member;
+import gradle_spring_db_study.spring.MemberDao;
+import gradle_spring_db_study.spring.MemberNotFoundException;
+import gradle_spring_db_study.spring.WrongIdPasswordException;
 
 public class MainForCPS {
 

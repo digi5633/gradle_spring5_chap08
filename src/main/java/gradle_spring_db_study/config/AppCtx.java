@@ -1,4 +1,4 @@
-package config;
+package gradle_spring_db_study.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

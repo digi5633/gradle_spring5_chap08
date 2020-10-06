@@ -1,4 +1,4 @@
-package main;
+package gradle_spring_db_study.main;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -9,9 +9,9 @@ import javax.sql.DataSource;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import config.AppCtx;
-import spring.Member;
-import spring.MemberDao;
+import gradle_spring_db_study.config.AppCtx;
+import gradle_spring_db_study.spring.Member;
+import gradle_spring_db_study.spring.MemberDao;
 
 public class MainForDataSource {
 

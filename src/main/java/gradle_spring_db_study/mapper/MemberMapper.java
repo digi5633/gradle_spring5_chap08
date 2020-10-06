@@ -1,8 +1,8 @@
-package mapper;
+package gradle_spring_db_study.mapper;
 
 import java.util.List;
 
-import spring.Member;
+import gradle_spring_db_study.spring.Member;
 
 public interface MemberMapper {
 

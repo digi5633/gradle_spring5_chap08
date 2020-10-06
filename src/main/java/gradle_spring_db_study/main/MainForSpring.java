@@ -1,4 +1,4 @@
-package main;
+package gradle_spring_db_study.main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,15 +7,15 @@ import java.io.InputStreamReader;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import config.AppCtx;
-import spring.ChangePasswordService;
-import spring.DuplicateMemberException;
-import spring.MemberInfoPrinter;
-import spring.MemberListPrinter;
-import spring.MemberNotFoundException;
-import spring.MemberRegisterService;
-import spring.RegisterRequest;
-import spring.WrongIdPasswordException;
+import gradle_spring_db_study.config.AppCtx;
+import gradle_spring_db_study.spring.ChangePasswordService;
+import gradle_spring_db_study.spring.DuplicateMemberException;
+import gradle_spring_db_study.spring.MemberInfoPrinter;
+import gradle_spring_db_study.spring.MemberListPrinter;
+import gradle_spring_db_study.spring.MemberNotFoundException;
+import gradle_spring_db_study.spring.MemberRegisterService;
+import gradle_spring_db_study.spring.RegisterRequest;
+import gradle_spring_db_study.spring.WrongIdPasswordException;
 
 public class MainForSpring {
 

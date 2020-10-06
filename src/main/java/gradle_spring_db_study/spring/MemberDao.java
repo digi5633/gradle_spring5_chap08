@@ -1,4 +1,4 @@
-package spring;
+package gradle_spring_db_study.spring;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -1,4 +1,4 @@
-package config;
+package gradle_spring_db_study.config;
 
 import java.io.IOException;
 import java.util.Properties;
